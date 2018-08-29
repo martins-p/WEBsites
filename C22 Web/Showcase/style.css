@@ -66,22 +66,27 @@ body {
       font-size: 40px;
     }
 }
+
 a:link {
-    color: whitesmoke; 
+    color: whitesmoke;
+    opacity: 0.8; 
 }
 a:visited {
     color: whitesmoke;
+    opacity: 0.8;
 }
 a:hover {
-    color: purple;
+    color: whitesmoke;
     text-decoration: none;
+    opacity: 1.0;
 }
 a:active {
- color: whitesmoke;
+ color: purple;
 }
 
 #idea h1 {
     color: whitesmoke;
+    opacity: 0.8;
     font-size: 5vw;
 }
 @media screen and (min-width: 1200px) {
@@ -91,7 +96,7 @@ a:active {
 }
 @media screen and (max-width: 750px) {
     #idea h1  {
-      font-size: 40px;
+      font-size: 30px;
     }
 }
 #bottom .container {
